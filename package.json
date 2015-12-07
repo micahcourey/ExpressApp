@@ -1,0 +1,25 @@
+{
+  "name": "ExpressApp",
+  "version": "1.0.0",
+  "description": "An app built with ExpressApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahcourey/ExpressApp.git"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
