@@ -5,8 +5,13 @@ var express = require('express'),
 
 var app = express();
 
+app.use('/static', express.static(__dirname + '/public'))
+
+app.set('view engine', 'jade');
+app.set('views', __dirname + '/templates')
+
 app.get('/', function(req, res) {
-  res.send("<h1>Hello Everybody</h1>");
+  res.render("index");
 });
 
 app.get('/blog/:title?', function(req, res) {
